@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+  background-color: F5FFFA;
+}
+
+
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  position: relative;
+}
+
+
+.mySlides {
+  display: none;
+  transition: transform .3s;
+}
+.mySlides:hover{
+  transform: scale(1.5);
+  position:relative;
+  top:100px;
+  left:200px;
+  height:300px;
+  width:400px;
+  opacity:1;
+  z-index:1;
+}
+
+.cursor {
+  cursor: pointer;
+}
+}
+.checked {
+    color: orange;
+
+}
+.next {
+  right: 0;
+
+}
+.column {
+  float: left;
+  width: 125px;
+}
+
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+<body>
+
+
+<div class="wholeimage"  >
+<div class="container">
+  <div class="mySlides">
+
+    <img src="1.jpg" style="width:500px;height:300px;">
+  </div>
+
+  <div class="mySlides">
+
+    <img src="2.jpg" style="width:500px;height:300px;">
+  </div>
+
+  <div class="mySlides">
+
+    <img src="3.jpg" style="width:500px;height:300px;">
+  </div>
+
+  <div class="mySlides">
+
+    <img src="4.jpg" style="width:500px;height:300px;">
+  </div>
+</div>
+
+
+
+
+
+
+
+
+  <div class="row">
+    <div class="column">
+      <img class="demo" src="1.jpg" style="width:100%" onclick="currentSlide(1)">
+    </div>
+    <div class="column">
+      <img class="demo" src="2.jpg" style="width:100%" onclick="currentSlide(2)" >
+    </div>
+    <div class="column">
+      <img class="demo" src="3.jpg" style="width:100%" onclick="currentSlide(3)" >
+    </div>
+    <div class="column">
+      <img class="demo" src="4.jpg" style="width:100%" onclick="currentSlide(4)" >
+    </div>
+
+    </div>
+  </div>
+</div>
+<div>
+  <button   style="position:absolute; left:0;top:500px; width:250px;height:40px; background-color:blue;border-radius:12px ;font-size:20px;"  type="button"  name="Add ">ADD TO CART</button>
+  <button style="position:absolute; left:250px; top:500px; width:250px;height:40px; background-color:orange; border-radius:12px ;font-size:20px;" type="button"  name="Add ">BUY NOW</button>
+</div>
+</div>
+<div class="des1" style="position:absolute; top:0px;  left:510px;" >
+
+<h3>  Lois Caron Kurta Specially Designed- For Men</h3>
+
+<span style="color:orange"class="fa fa-star checked"></span>
+<span style="color:orange" class="fa fa-star checked"></span>
+<span style="color:orange" class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span style="color:grey; font-style:italic;">348 ratings and 340 review</span><br><br>
+<span style="color:green">Special price ends in less than <span style="font-style:italic; font-size:18px">3 days</span></span>
+<br><br><span><span style="font-size:24px"  >₹349</span> <span style="color:grey"><strike>₹2,599</strike></span> <span style="color:green">86% off </span></span><i  style="color:grey; font-size:20px;"class="fa fa-info-circle"></i>
+</span>
+<br><br>
+<div>
+<i class="fa fa-chain" style="font-size:24px; color:green;"></i> <span style="font-size:21px; ">Special</span> PriceGet extra 7% off (price inclusive of discount) <span style="color:green">T&C</span><br>
+
+<i class="fa fa-chain" style="font-size:24px; color:green;"></i> <span style="font-size:21px; ">Bank Offer</span> 10% Instant Discount on Mastercard for  Online Payment <span style="color:green">T&C</span><br>
+
+<i class="fa fa-chain" style="font-size:24px; color:green;"></i> <span style="font-size:21px; ">Bank Offer </span> Extra 5% off* with Axis Bank Buzz Credit Card <span style="color:green">T&C</span><br>
+</div>
+<br>
+
+<div>
+<span style="font-size:18px; color:grey; ">Delivery </span>&nbsp &nbsp &nbsp &nbsp <input type="text" name="" value=""> <br>
+<span style="font-size:12px; color:grey; ">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbspUsually delivered in 3 & 4 days</span><i  style="color:grey; font-size:20px;"class="fa fa-info-circle"></i>
+<br><br><span style="font-size:18px; color:grey; ">Highlight </span>&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  <ul><li>Watch Movement: QUARTZ</li>
+<li>Water Resistant</li>
+<li>Display Type: Analog</li>
+<li>Strap: Silver, STAINLESS STEEL </li>
+</ul><br>
+</div>
+<hr>
+<div class="table1">
+  <hr>
+  <span style=" font-size:24px; ">SPECIFICATION</span><hr>
+  <span style=" font-size:18px; ">General</span><br><br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+  Water Resistant &nbsp &nbsp &nbsp &nbsp Yes <br><br>
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+Display Type &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp   Analog<br><br>
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+  Style Code &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp LCS-8075<br><br>
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+Series &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp  BLUE DIAL DAY & DATE <br><br>
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+  Occasion &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp  Casual, Party-Wedding, Formal, Sports <br><br>
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+  Watch Type &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp   &nbsp   Wrist Watch<br><br>
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+  Pack of &nbsp &nbsp &nbsp &nbsp   &nbsp &nbsp   &nbsp &nbsp  &nbsp &nbsp  &nbsp &nbsp 1<br><br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+  Scratch Resistant &nbsp &nbsp &nbsp &nbsp No<br><br>
+<br>
+<br>
+<hr>
+
+</div>
+<div class="comment">
+  <h1>RATING AND REVIEWING</h1><br>
+  <span style="font-size:20px;">User Rating </span>
+  <span style="color:orange"class="fa fa-star checked"></span>
+  <span style="color:orange" class="fa fa-star checked"></span>
+  <span style="color:orange" class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <span style="color:grey; font-style:italic;">348 ratings and 340 review</span>  &nbsp  <button style="width:150px;height:30px; background-color:blue;border-radius:12px ;font-size:12px;"type="button" name="button">RATE THE PRODUCT </button><br><br>
+  <h3>POST COMMENT</h3>
+  Feedback:<textarea id="myInput" style="color:grey; font-style:italic;" rows="4" cols="50" type="text">
+
+</textarea>
+  <br><br>
+  <br>
+  <div id="mycmt"></div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <footer style="width:1000px; position:absolute; left:0px; top:1500px;background-color:grey">
+    <p>Posted by: Sushant Paudel</p>
+    <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
+  </footer>
+
+
+<script>
+var input = document.getElementById("myInput");
+input.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("mycmt").innerHTML= "feedback is sent";
+    }
+});
+var slideIndex = 1;
+showSlides(slideIndex);
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+
+
+  if (n > slides.length)
+   {slideIndex = 1}
+  if (n < 1)
+  {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+
+  slides[slideIndex-1].style.display = "block";
+
+
+}
+
+
+
+
+
+</script>
+
+</body>
+</html>
